@@ -1,0 +1,128 @@
+body{font-family: clear sans,helvetica neue,Arial,sans-serif;
+    background: antiquewhite;
+}
+a {text-decoration: none; color: #f9f6f2;}
+.lien{
+text-align:end;
+}
+.grand{
+display: block;
+}
+.title{
+display: inline-block;
+text-align: center;
+font-size: 80px;
+margin: 0;
+text-decoration: none;
+color: #776e65;
+margin-left: 30%;
+}
+.score{
+display: inline-block;
+text-align: center;
+font-weight: 700;
+font-size: 25px;
+background: #FF8000;
+border-radius: 50px;
+width: 120px;
+margin-left: 20%;
+}
+.bouton1{
+margin-right: auto;
+margin-left: auto;      
+left: 0;
+right:0;
+width:45px; 
+}
+.bouton2{
+margin-right: auto;
+margin-left: auto;      
+left: 0;
+right:0; 
+width:100px; 
+}
+.grille{
+background: #ACAA9F;
+position: absolute;
+margin-top: 20px;
+margin-right: auto;
+margin-left: auto; 
+left: 0;
+right:0;
+width:500px;  
+z-index: 1;
+}
+.ligne{
+margin-bottom: 12px;
+}
+.cellule{
+display: inline-block;
+text-align: center;
+width: 97.5px;
+height: 97.5px;       
+vertical-align: middle;    /*         centre le chiffre   */
+line-height: 97.5px;       /*           verticalement     */               
+margin-right: 12px;
+margin-left: 12px;
+border-radius: 10px;
+background: #c4c1ae;
+font-size: xx-large;
+}
+.reset{
+text-align: center;
+background: #8f7a66;
+width: 120px;
+vertical-align: middle;    /*         centre le chiffre   */
+line-height: 40px;       /*           verticalement     */
+margin-left: auto;
+margin-right: auto;
+}
+.regle {
+text-align: center;
+background: #D0CBBD;
+border-radius: 10px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+.reponse{
+margin-right: auto;
+margin-left: auto;      
+left: 0;
+right:0; 
+width:100px; 
+}
+
+.c0{
+background: #f5f5f5;
+}
+.c2{
+background: #eeed4a;
+}
+.c4{
+background: #ede0c8;
+}
+.c8{
+background: #f2b179;
+}
+.c16{
+background: #f59563;
+}
+.c32{
+background: #f67c5f;
+}
+.c64{
+background: #f65e3b;
+}
+.c128{
+background: #edcf72;
+}
+.c256{
+background: #edcc61;
+}
+
+.fin{
+text-align: center;
+font-size: 80px;
+color: #770000;
+}			
