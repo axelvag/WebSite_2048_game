@@ -77,11 +77,13 @@ But, after each player action, a number must be randomly drawn whose value is ei
 
 When the player clicks on a direction button, you must start by shifting or packing all the numbers on the grid in the direction indicated by the player. For example, if the player clicks on Left, on each line, all the numbers must be shifted to the left, leaving no empty square between two numbers. Remember that empty boxes are represented by zeros. Here is an example of a left shift:
 
+```
   Avant		  Après
 	0 2 0 4		2 4 0 0
 	4 4 0 2		4 4 2 0
 	0 0 4 4		4 4 0 0
 	0 2 2 0		2 2 0 0
+```
 
 Make the merge for all direction and test this work well in all directions. To apply the blend to all four rows or columns of the grid, you will call the blend functions in the switch used for the offset. Don't forget that you have to do an offset after the merge to eliminate the zeros that appeared due to the merge.
 
