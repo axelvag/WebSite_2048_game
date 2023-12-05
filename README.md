@@ -78,7 +78,7 @@ But, after each player action, a number must be randomly drawn whose value is ei
 When the player clicks on a direction button, you must start by shifting or packing all the numbers on the grid in the direction indicated by the player. For example, if the player clicks on Left, on each line, all the numbers must be shifted to the left, leaving no empty square between two numbers. Remember that empty boxes are represented by zeros. Here is an example of a left shift:
 
 ```
-  Avant		  Après
+  	 Avant		 Après
 	0 2 0 4		2 4 0 0
 	4 4 0 2		4 4 2 0
 	0 0 4 4		4 4 0 0
