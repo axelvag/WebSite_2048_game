@@ -71,6 +71,23 @@ In game-2048.php. if the user clicks on New part, the function new_part() must b
 Call the matrix_to_file() function at the end of game-2048.php.
 To test the display_case($i,$j) function, modify the HTML code that displays the grid in game-2048.php. You will use two nested for loops in which you will call display_case($i,$j).
 
+At the start of the game, after clicking on New game, you must reset the score to 0 (already done), initialize the grid (already done), and make the number 2 appear twice in the grid. To place these two numbers 2, you must randomly draw their position in the grid.
+
+But, after each player action, a number must be randomly drawn whose value is either 2 or 4, this number must be placed randomly in an empty square in the grid, provided that the grid is not full.
+
+When the player clicks on a direction button, you must start by shifting or packing all the numbers on the grid in the direction indicated by the player. For example, if the player clicks on Left, on each line, all the numbers must be shifted to the left, leaving no empty square between two numbers. Remember that empty boxes are represented by zeros. Here is an example of a left shift:
+
+  Avant		  Après
+	0 2 0 4		2 4 0 0
+	4 4 0 2		4 4 2 0
+	0 0 4 4		4 4 0 0
+	0 2 2 0		2 2 0 0
+
+Make the merge for all direction and test this work well in all directions. To apply the blend to all four rows or columns of the grid, you will call the blend functions in the switch used for the offset. Don't forget that you have to do an offset after the merge to eliminate the zeros that appeared due to the merge.
+
+Modify the merge functions to take into account the increase in score with each new merge. Test that the score is displayed correctly with each new game action.
+
+Check that the end of the game goes as planned: the game is lost if the grid is full and no merger is possible. If not, change your code.
 
 ## Starting
 
