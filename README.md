@@ -100,7 +100,7 @@ $ git clone https://github.com/axelvag/WebSite_2048_game.git WebSite_2048_game
 # Access
 $ cd WebSite_2048_game
 
-# Put it in a php server like Apache or 000WebHost
+# Put it in a php server like Apache, Nginx or 000WebHost
 
 # TADAMMM ! You have your own 2048 game
 ```
